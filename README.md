@@ -4,10 +4,10 @@ The Collatz Conjecture is a problem in mathematics that has gone a long time wit
 
 The rule goes:
 - if the current number is odd
- - multiply the current number by 3
- - then add 1
+  - multiply the current number by 3
+  - then add 1
 - if the current number is even
- - divide the current number by 2 
+  - divide the current number by 2 
 
 The result number then becomes the next number in the sequence and it carrys on from there. (This is my understanding of the Collatz Conjecture. If I have misunderstood something, please let me know.)
 
