@@ -11,6 +11,8 @@ fn main() {
         return;
     }
 
+    std::fs::File::create("data.csv").expect("cannot create or truncate file");
+
     let mut data_file: std::fs::File = OpenOptions::new()
         .write(true)
         .truncate(true)
